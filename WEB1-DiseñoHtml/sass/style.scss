@@ -1,0 +1,30 @@
+@import'./mixins/mixins';
+
+@import'./parcials/helpers';
+
+@import'./parcials/header';
+
+@import'./parcials/content';
+
+@import'./parcials/footer';
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 17px solid #090909;
+    margin: 0;
+}
+
+h2 {
+	font-size: 18px;
+	padding-left: 30px;
+	background-position: 0 7px;
+}
+
+
+h3 {
+	font-size: 12px;
+	padding-left: 23px;
+	background-size: 8px;
+	background-position: 0 5px;
+}

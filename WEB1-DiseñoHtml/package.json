@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w sass -o css/style.css",
-    "sass-build": "node-sass sass -o css/style.css --output-style compressed"
+    "sass": "node-sass -w sass -o css",
+    "sass-build": "node-sass sass -o css --output-style compressed"
   },
   "author": "",
   "license": "ISC",

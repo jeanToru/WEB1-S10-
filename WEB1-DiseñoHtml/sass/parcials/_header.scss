@@ -1,0 +1,46 @@
+@import 'content';
+$colorBlack:#090909;
+$colorgrayclaro: #c0c0c0;
+$colorgrayoscuro: #999898;
+$coloranaranjado:#fe9b00;
+
+
+#logo {
+    float: left;
+    width: 183px;
+}
+#nav {
+	float: right;
+	width: 655px;
+	position: relative;
+}
+#link-email {
+    font-size: 13px;
+    color: $colorgrayoscuro;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#list {
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0px;
+}
+
+#list li {
+    float: left;
+}
+
+#list li + li {
+    margin-left: 64px;
+}
+
+#list a {
+    font-size: 12px;
+    font-weight: bold;
+    color: $coloranaranjado;
+    text-decoration: none;
+    text-transform: uppercase;
+}
