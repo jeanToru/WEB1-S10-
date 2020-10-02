@@ -7,7 +7,7 @@ $coloranaranjado:#fe9b00;
 
 #logo {
     float: left;
-    max-width: 183px;
+    max-width: 19%;
     width: 100%;
 }
 #nav {
@@ -17,17 +17,17 @@ $coloranaranjado:#fe9b00;
 }
 #link-email {
     font-size: 13px;
-    color: $colorgrayoscuro;
-    text-decoration: none;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+	color: $colorgrayclaro;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 #list {
-    list-style: none;
-    margin: 45px 0 0 0;
-    padding: 0px;
+    @include list-style;
+	margin: 5.7% 0 0 0;
+	padding: 0;
 }
 
 #list li {
@@ -35,13 +35,13 @@ $coloranaranjado:#fe9b00;
 }
 
 #list li + li {
-    margin-left: 64px;
+    margin-left: 8%;
 }
 
 #list a {
     font-size: 12px;
-    font-weight: bold;
-    color: $coloranaranjado;
-    text-decoration: none;
-    text-transform: uppercase;
+	font-weight: bold;
+	color: $coloranaranjado;
+	text-decoration: none;
+	text-transform: uppercase;
 }

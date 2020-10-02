@@ -1,6 +1,10 @@
 $colorBlack-Gray: #5d5d5d;
 $ColorBlack: #090909;
 
+#bloqueImagen {
+	max-width: 100%;
+}
+
 #contenido h2 {
     font-size: 18px;
 	color: $ColorBlack;
@@ -24,7 +28,7 @@ $ColorBlack: #090909;
 }
 
 #lista-contenido li {
-    padding-left:30px;
+    padding-left: 14%;
 	background-image: url('../img/check.png');
 	background-repeat: no-repeat;	
 	background-position: top left;
@@ -36,7 +40,7 @@ $ColorBlack: #090909;
 }
 
 .box + .box {
-	margin-left: 60px;
+	margin-left: 6.25%;;
 }
 
 
@@ -48,26 +52,43 @@ $ColorBlack: #090909;
 }
 
 /*Bloque de imajenes */
+#portafolio{
+	border-bottom: none;	
+}
+#imajenes a+a {
+	margin-left: 2.9%;
+}
 
 .caja-image {
-	max-width: 22.34%;
-	width: 100%;
-	float: left;
+	width: 22%
     
 }
 
-.caja-image + .caja-image {
-    margin-left: 34px;
-}
 /* Bloque info*/
 
-#bloqueActualizar {
-    width: 69%;
+#bloquInformacion div {
     float: left;
-    margin-right: 8%;
+	margin-bottom: 30px;
+}
+
+#bloqueActualizar {
+	max-width: 77%;
+}
+
+#bloqueActualizar p {
+    font-size: 12px;
+	color: #5d5d5d;
+	max-width: 63%;
 }
 
 #redesSociales {
-	width: 23%;
-	float: right;
+	max-width: 23%;
+}
+#redesSociales a+a{
+	margin-left: 1%;
+}
+
+#redesSociales h5 {
+	padding-bottom: 12px;
+	background-position: 0 3px;
 }
