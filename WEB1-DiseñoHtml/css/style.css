@@ -1,6 +1,6 @@
 /* Helpers */
 #estrutura {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 .clearfix::after {
@@ -63,7 +63,7 @@
   background-position: top left; }
 
 .box {
-  width: 280px;
+  width: 29%;
   float: left; }
 
 .box + .box {
@@ -77,33 +77,31 @@
 
 /*Bloque de imajenes */
 .caja-image {
-  width: 214.5px;
-  float: left;
-  background-color: navy; }
-
-.caja-image a, .caja-image img {
-  display: block; }
+  max-width: 22.34%;
+  width: 100%;
+  float: left; }
 
 .caja-image + .caja-image {
   margin-left: 34px; }
 
 /* Bloque info*/
 #bloqueActualizar {
-  width: 660px;
+  width: 69%;
   float: left;
-  margin-right: 80px; }
+  margin-right: 8%; }
 
 #redesSociales {
-  width: 220px;
+  width: 23%;
   float: right; }
 
 #logo {
   float: left;
-  width: 183px; }
+  max-width: 183px;
+  width: 100%; }
 
 #nav {
   float: right;
-  width: 655px;
+  width: 68%;
   position: relative; }
 
 #link-email {
@@ -159,7 +157,7 @@
   background-position: top left; }
 
 .box {
-  width: 280px;
+  width: 29%;
   float: left; }
 
 .box + .box {
@@ -173,24 +171,21 @@
 
 /*Bloque de imajenes */
 .caja-image {
-  width: 214.5px;
-  float: left;
-  background-color: navy; }
-
-.caja-image a, .caja-image img {
-  display: block; }
+  max-width: 22.34%;
+  width: 100%;
+  float: left; }
 
 .caja-image + .caja-image {
   margin-left: 34px; }
 
 /* Bloque info*/
 #bloqueActualizar {
-  width: 660px;
+  width: 69%;
   float: left;
-  margin-right: 80px; }
+  margin-right: 8%; }
 
 #redesSociales {
-  width: 220px;
+  width: 23%;
   float: right; }
 
 /* Footer */
@@ -200,7 +195,7 @@
 
 #footer .wrapper {
   position: relative;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 #footer p {

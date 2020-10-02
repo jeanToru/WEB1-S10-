@@ -7,11 +7,12 @@ $coloranaranjado:#fe9b00;
 
 #logo {
     float: left;
-    width: 183px;
+    max-width: 183px;
+    width: 100%;
 }
 #nav {
 	float: right;
-	width: 655px;
+	width: 68%;
 	position: relative;
 }
 #link-email {

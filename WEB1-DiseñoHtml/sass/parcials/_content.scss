@@ -31,7 +31,7 @@ $ColorBlack: #090909;
 }
 
 .box {
-	width: 280px;
+	width: 29%;
 	float: left;
 }
 
@@ -50,13 +50,10 @@ $ColorBlack: #090909;
 /*Bloque de imajenes */
 
 .caja-image {
-    width: 214.5px;
+	max-width: 22.34%;
+	width: 100%;
 	float: left;
-    background-color: navy;
-}
-
-.caja-image a, .caja-image img {
-    display: block;
+    
 }
 
 .caja-image + .caja-image {
@@ -65,12 +62,12 @@ $ColorBlack: #090909;
 /* Bloque info*/
 
 #bloqueActualizar {
-    width: 660px;
+    width: 69%;
     float: left;
-    margin-right: 80px;
+    margin-right: 8%;
 }
 
 #redesSociales {
-	width: 220px;
+	width: 23%;
 	float: right;
 }
