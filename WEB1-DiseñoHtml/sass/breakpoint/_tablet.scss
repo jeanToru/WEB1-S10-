@@ -7,7 +7,7 @@
 		}
 	}
 
-	// Nav
+	// Menu
 	#list{
 		display: none;
 	}
@@ -17,7 +17,7 @@
 		display: block;
 	}
 
-	/* Main content */
+	/* contenido */
 
 	.box{
 		width: 100%;
@@ -26,6 +26,10 @@
 	.box + .box{
 		margin-left: 0;
 		margin-top: 15px;
+	}
+
+	#lista-contenido li {
+		padding-left: 4%;
 	}
 
 	/* Our Portfolio */
@@ -38,7 +42,7 @@
 		margin-left: 0;
 	}
 
-	/* Blog */
+	/* Update */
 	#bloqueActualizar{
 		width: 100%;
 		margin-right: 0;

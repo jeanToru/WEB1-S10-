@@ -111,6 +111,9 @@
   padding-bottom: 12px;
   background-position: 0 3px; }
 
+.nav-link-menu {
+  display: none; }
+
 #logo {
   float: left;
   max-width: 19%;
@@ -222,6 +225,9 @@
   padding-bottom: 12px;
   background-position: 0 3px; }
 
+.nav-link-menu {
+  display: none; }
+
 /* Footer */
 #footer {
   background-color: #e2e2e2;
@@ -293,19 +299,21 @@ h3 {
     text-align: right;
     margin-top: 45px;
     display: block; }
-  /* Main content */
+  /* contenido */
   .box {
     width: 100%; }
   .box + .box {
     margin-left: 0;
     margin-top: 15px; }
+  #lista-contenido li {
+    padding-left: 4%; }
   /* Our Portfolio */
   .caja-image {
     width: 48%;
     padding: 1%; }
   .caja-image + .caja-image {
     margin-left: 0; }
-  /* Blog */
+  /* Update */
   #bloqueActualizar {
     width: 100%;
     margin-right: 0;
@@ -319,6 +327,8 @@ h3 {
     margin-top: 15px; } }
 
 @media (max-width: 767px) {
+  #lista-contenido li {
+    padding-left: 4%; }
   .caja-image {
     width: 100%;
     padding: 0;
