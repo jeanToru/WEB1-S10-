@@ -1,0 +1,59 @@
+@media(max-width: 1023px){
+
+	// General
+	.wrapper.space-tablet{ 
+		> div{
+			padding: 20px 0;
+		}
+	}
+
+	// Nav
+	#list{
+		display: none;
+	}
+	.nav-link-menu{
+		text-align: right;
+		margin-top: 45px;
+		display: block;
+	}
+
+	/* Main content */
+
+	.box{
+		width: 100%;
+	}
+
+	.box + .box{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	/* Our Portfolio */
+	.caja-image{
+		width: 48%;
+		padding: 1%;
+	}
+
+	.caja-image + .caja-image{
+		margin-left: 0;
+	}
+
+	/* Blog */
+	#bloqueActualizar{
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+
+	#redesSociales{
+		width: 100%;
+		float: none;
+	}
+
+	/* Footer */
+	.footer-logo{
+		position: static;
+		margin-top: 15px;
+	}
+
+}

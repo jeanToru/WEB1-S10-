@@ -1,0 +1,11 @@
+@media(max-width: 767px){
+	.caja-image {
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+
+	.caja-image  + .caja-image {
+		margin-top: 15px;
+	}
+}

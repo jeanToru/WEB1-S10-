@@ -283,3 +283,45 @@ h3 {
   padding-left: 23px;
   background-size: 8px;
   background-position: 0 5px; }
+
+@media (max-width: 1023px) {
+  .wrapper.space-tablet > div {
+    padding: 20px 0; }
+  #list {
+    display: none; }
+  .nav-link-menu {
+    text-align: right;
+    margin-top: 45px;
+    display: block; }
+  /* Main content */
+  .box {
+    width: 100%; }
+  .box + .box {
+    margin-left: 0;
+    margin-top: 15px; }
+  /* Our Portfolio */
+  .caja-image {
+    width: 48%;
+    padding: 1%; }
+  .caja-image + .caja-image {
+    margin-left: 0; }
+  /* Blog */
+  #bloqueActualizar {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+  #redesSociales {
+    width: 100%;
+    float: none; }
+  /* Footer */
+  .footer-logo {
+    position: static;
+    margin-top: 15px; } }
+
+@media (max-width: 767px) {
+  .caja-image {
+    width: 100%;
+    padding: 0;
+    float: none; }
+  .caja-image + .caja-image {
+    margin-top: 15px; } }
