@@ -6,7 +6,7 @@ $ColorBlack: #090909;
 }
 
 #contenido h2 {
-    font-size: 18px;
+    font-size: 1.25rem;
 	color: $ColorBlack;
 	border-bottom: 6px solid $ColorBlack;
 	padding-bottom: 12px;
@@ -17,7 +17,7 @@ $ColorBlack: #090909;
 }
 #contenido p {
 	color: $colorBlack-Gray;
-	font-size: 12px;
+	font-size: 0.7rem;
 	line-height: 15px;
 }
 
@@ -47,11 +47,13 @@ $ColorBlack: #090909;
 .link-contenido {
 	color:$ColorBlack;
 	font-style: italic;
-	font-size: 12px;
+	font-size: 0.7rem;
 	@include text-decoration;
 }
 
 /*Bloque de imajenes */
+
+
 #portafolio{
 	border-bottom: none;	
 }
@@ -76,7 +78,7 @@ $ColorBlack: #090909;
 }
 
 #bloqueActualizar p {
-    font-size: 12px;
+    font-size: 0.7rem;
 	color: #5d5d5d;
 	max-width: 63%;
 }

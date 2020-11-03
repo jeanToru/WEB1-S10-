@@ -40,7 +40,7 @@
   max-width: 100%; }
 
 #contenido h2 {
-  font-size: 18px;
+  font-size: 1.25rem;
   color: #090909;
   border-bottom: 6px solid #090909;
   padding-bottom: 12px;
@@ -51,7 +51,7 @@
 
 #contenido p {
   color: #5d5d5d;
-  font-size: 12px;
+  font-size: 0.7rem;
   line-height: 15px; }
 
 #lista-contenido {
@@ -75,7 +75,7 @@
 .link-contenido {
   color: #090909;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.7rem;
   text-decoration: none; }
 
 /*Bloque de imajenes */
@@ -97,7 +97,7 @@
   max-width: 77%; }
 
 #bloqueActualizar p {
-  font-size: 12px;
+  font-size: 0.7rem;
   color: #5d5d5d;
   max-width: 63%; }
 
@@ -125,7 +125,7 @@
   position: relative; }
 
 #link-email {
-  font-size: 13px;
+  font-size: 0.7rem;
   color: #c0c0c0;
   text-decoration: none;
   position: absolute;
@@ -144,7 +144,7 @@
   margin-left: 8%; }
 
 #list a {
-  font-size: 12px;
+  font-size: 0.7rem;
   font-weight: bold;
   color: #fe9b00;
   text-decoration: none;
@@ -154,7 +154,7 @@
   max-width: 100%; }
 
 #contenido h2 {
-  font-size: 18px;
+  font-size: 1.25rem;
   color: #090909;
   border-bottom: 6px solid #090909;
   padding-bottom: 12px;
@@ -165,7 +165,7 @@
 
 #contenido p {
   color: #5d5d5d;
-  font-size: 12px;
+  font-size: 0.7rem;
   line-height: 15px; }
 
 #lista-contenido {
@@ -189,7 +189,7 @@
 .link-contenido {
   color: #090909;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.7rem;
   text-decoration: none; }
 
 /*Bloque de imajenes */
@@ -211,7 +211,7 @@
   max-width: 77%; }
 
 #bloqueActualizar p {
-  font-size: 12px;
+  font-size: 0.7rem;
   color: #5d5d5d;
   max-width: 63%; }
 
@@ -260,7 +260,7 @@
 
 #footer-lista a {
   color: #acacac;
-  font-size: 12px; }
+  font-size: 0.7rem; }
 
 .footer-logo {
   height: 64px;
@@ -272,7 +272,7 @@
   position: relative;
   top: 2px;
   right: -10px;
-  font-size: 12px; }
+  font-size: 0.7rem; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -280,12 +280,11 @@ body {
   margin: 0; }
 
 h2 {
-  font-size: 18px;
-  padding-left: 30px;
+  font-size: 1.25rem;
   background-position: 0 7px; }
 
 h3 {
-  font-size: 12px;
+  font-size: 0.7rem;
   padding-left: 23px;
   background-size: 8px;
   background-position: 0 5px; }
